@@ -63,7 +63,7 @@ const Cart = () => {
                             <input type='number' readOnly value={item.quantity}/>
                             <button onClick={()=>increaseQuantity(item.product,item.quantity,item.stock)}>+</button>
                             </div>
-                        <p className="cartSubtotal">{`$ ${item.price * item.quantity}`}</p>
+                        <p className="cartSubtotal">{`₹ ${item.price * item.quantity}`}</p>
                         </div>
 
                 ))}
